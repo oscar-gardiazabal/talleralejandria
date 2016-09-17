@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align:left;
+}
+a:link {
+    text-decoration: none;
+    font-weight: bold;
+    text-align:left;
+}
+a:hover{
+    text-decoration: none;
+    color: #000000;
+    text-align:left;
+}
+a:active {
+    color:#ffffff;
+}
+h1 {
+    font-size:16px;
+    margin-bottom: 10px;
+}
+h1 span{
+    font-weight: normal;
+    font-size: 13px;
+    padding-left: 2px;
+}
+h2 {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 11.5px;
+    color: #666666;
+    margin: 0px;
+}
+
+.logo {
+    background-image: url('../img/piramidGris.png');
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 150px;
+
+    height: 40px;
+
+}
+
+.titles {
+    position: relative;
+    min-width: 23%;
+display: inline-block;
+border-left: 1px solid black;
+padding-left: 3px;
+    /*        vertical-align: bottom;
+            text-align: right;
+            height:130px;
+            overflow: hidden;
+            font-size: 13px;
+            background-color: #bab9b9;
+            line-height:250px;
+            width:133px;*/
+}
+.menu {
+    height:240px;
+    background-color: #bab9b9;
+}
+
+.base{
+    height: 18px;
+    font-size:12px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.base_imagen{
+    text-align: center;
+    width: 550px;
+    height: 25px;
+}
+
+.proyectos{
+    padding-bottom: 20px;
+}
+.obras {
+    background-color: #ffffff;
+    font-size:14px;
+}
+.lista {
+    color: #000000;
+    text-align: left;
+    padding-left: 50px;
+    font-size: 12px;
+}
+.entrada{
+    position: relative;
+    height: 100px;
+}
+.fecha {
+    position: absolute;
+    font-weight: bold;
+    /*right: 685px;*/
+}
+.equipo {
+    font-weight: bold;
+    padding-left: 50px;
+}
+.textoEquipo {
+    float:right;
+    font-size: 11.5px;
+    color: #666666;
+}
+.texto {
+    margin-left:100px;
+    font-size: 11.5px;
+    color: #666666;
+}
+.texto a{
+    color: #666666;
+}
+.texto h2{
+    font-weight: bold;
+}
+.imagenes {
+    position:absolute;
+    width: 180px;
+    height: 90px;
+    text-align: right;
+    float:left;
+    right: 20px;
+    top: 0px;
+}
+.imagenes img{
+    max-width: 180px;
+    max-height: 90px;
+}
+
+.borde {
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+}
+.presentacion {
+    font-size: 14px;
+    text-align: right;
+    padding-right: 3px;
+}
+#otros_proyectos {
+    color: blue; 
+    text-decoration: underline;
+    font-size: 10px;
+    position: relative;
+    float: right;
+    margin-top:-27px;
+    margin-right:20px;
+}
+#imagen {
+    background-repeat: no-repeat;
+}
+
+#portfolio_cycler img{
+    width: 100%;
+}
+
+#portfolio_cycler{
+    position:relative;
+    width: max-content;
+    max-height: max-content;
+    margin-top:9px;
+    margin-bottom:20px;
+    overflow: hidden
+}
+#portfolio_cycler img{
+    position:absolute;
+    z-index:1;
+    max-width: 100%;
+}
+#portfolio_cycler img.active{
+    z-index:3
+}
+
+.titulo_opciones span{
+
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.texto_opciones span{
+
+    font-size: 12px;
+    color: #9c9b9b;
+}
+
+.grupo{
+    float:left;
+}
+
+.tipoProyecto{
+
+    padding-bottom: 10px;
+    color: #666666;
+    text-decoration: underline;
+
+}
+
+.grupo .grid_4{
+    height: 350px; 
+    overflow: hidden
+}
+
+.image_content{
+    height: 180px; 
+    overflow: hidden
+}
+
+.image_content img{
+    width: 100%
+}
+
+.mas{
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 12px;
+}

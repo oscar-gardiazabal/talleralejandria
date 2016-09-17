@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">      
+
+   <url>
+
+      <loc>http://www.tallerdealejandria.com/</loc>
+
+      <priority>1.0</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.tallerdealejandria.com/?p=proyectos.php</loc>
+
+      <priority>0.9</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.tallerdealejandria.com/?p=despacho.php</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.tallerdealejandria.com/?p=contacto.php</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.tallerdealejandria.com/?p=enlaces.php</loc>
+
+      <priority>0.0</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.tallerdealejandria.com/?p=proyectos_tipo.php</loc>
+
+      <priority>0.7</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.tallerdealejandria.com/?p=peritajes.php</loc>
+
+      <priority>0.4</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.tallerdealejandria.com/?p=donde_estamos.php</loc>
+
+      <priority>0.2</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.tallerdealejandria.com/?p=quienes_somos.php</loc>
+
+      <priority>0.5</priority>
+
+   </url>
+
+
+   <url>
+
+      <loc>http://www.tallerdealejandria.com/?p=equipo.php</loc>
+
+      <priority>0.1</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.tallerdealejandria.com/?p=mail.php</loc>
+
+      <priority>0.3</priority>
+
+   </url>
+
+
+   <url>
+
+      <loc>http://www.tallerdealejandria.com/?p=plantilla.php</loc>
+
+      <priority>0.6</priority>
+
+   </url>
+
+
+</urlset>

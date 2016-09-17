@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align:left;
+}
+a:link {
+    text-decoration: none;
+    font-weight: bold;
+    text-align:left;
+}
+a:hover{
+    text-decoration: none;
+    color: #000000;
+    text-align:left;
+}
+a:active {
+    color: white;
+}
+
+#plantilla_work {
+    color: rgb(130,130,130);
+    font-weight: lighter;
+}
+
+#plantilla_descripcion {
+    font-size: 11px;
+    padding-top: 12px;
+    padding-left: 15px;
+    width: 240px;
+    text-align: justify;
+}
+#plantilla_fecha {
+    color: #666666;
+}
+#plantilla_lugar {
+    color: #666666;
+}
+#plantilla_promotor {
+    color: #666666;
+}
+#plantilla_superficie {
+    color: #666666;
+}
+#plantilla_presupuesto {
+    color: #666666;
+}
+#plantilla_detalles {
+    padding-left:7px;
+    line-height: 19px;
+    font-size: 11px;  
+}
+.plantilla_proyectos {
+    font-size:14px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+#prueba {
+    overflow: hidden;
+}
+
+#gallery_output {
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: height .3s ease;
+    -moz-transition: height .3s ease;
+    transition: height .3s ease;
+}
+
+#gallery_output img{
+    max-width:100%;
+    opacity: 0;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+}
+
+#gallery_nav {
+    margin-left:10px;
+    overflow: auto;
+}
+
+#gallery_nav img {
+    margin-bottom:10px;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+#gallery_nav img:hover {
+    margin-bottom:10px;
+    max-width: 100%;
+    cursor: pointer;
+}
