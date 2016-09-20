@@ -166,8 +166,8 @@ h2 {
 
 #portfolio_cycler{
     position:relative;
-    width: max-content;
-    max-height: max-content;
+    /*width: max-content;*/
+    /*max-height: max-content;*/
     margin-top:9px;
     margin-bottom:20px;
     /*overflow: hidden;*/
