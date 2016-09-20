@@ -48,9 +48,9 @@ h2 {
 .titles {
     position: relative;
     min-width: 23%;
-display: inline-block;
-border-left: 1px solid black;
-padding-left: 3px;
+    display: inline-block;
+    border-left: 1px solid black;
+    padding-left: 3px;
     /*        vertical-align: bottom;
             text-align: right;
             height:130px;
@@ -170,7 +170,8 @@ padding-left: 3px;
     max-height: max-content;
     margin-top:9px;
     margin-bottom:20px;
-    overflow: hidden
+    /*overflow: hidden;*/
+    width: 100%;
 }
 #portfolio_cycler img{
     position:absolute;

@@ -81,9 +81,9 @@
     var url = "imagenes_proyectos/" + obj.id_proyecto + "/";
     $.ajax({
         url: url + "media",
-        success: function(data) {
+        success: function (data) {
             var i = 0;
-            $(data).find("td > a").each(function() {
+            $(data).find("td > a").each(function () {
 
                 if (i != 0) { //quit standard href 1st path
 
@@ -91,7 +91,7 @@
                     var img = $("<img src='" + src + ">");
                     $("#gallery_output").append(img);
 
-                    img.click(function() {
+                    img.click(function () {
                         window.location.href = this.src;
                     });
 
@@ -111,14 +111,14 @@
     });
 
     function navEvent(navImg, src) {
-        navImg.click(function() {
+        navImg.click(function () {
             outputChange(src);
         });
     }
 
     function outputChange(src) {
         var img = $("<img src='" + src + "'>");
-        img.load(function() {
+        img.load(function () {
             $("#gallery_output").html(img);
             img.show();
 
@@ -128,11 +128,6 @@
             $("#gallery_output").height(imageHeight);
         })
     }
-
-
-    $("#otros_proyectos").click(function(){
-        
-    });
 
 </script>
 

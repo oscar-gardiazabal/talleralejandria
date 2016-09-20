@@ -27,8 +27,9 @@ function getURL() {
             "prueba_mama": "pruebas/prueba_mama.php",
             "prueba": "prueba.php",
     };
-            var obj = getUrl();
-            if (obj.p && mapeo[p]) {
+    
+    var obj = getUrl();
+    if (obj.p && mapeo[p]) {
     return mapeo[obj.p];
     }
 

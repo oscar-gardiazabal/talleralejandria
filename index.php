@@ -37,13 +37,13 @@
                 var $active = $('#portfolio_cycler .active');
                 var $next = ($active.next().length > 0) ? $active.next() : $('#portfolio_cycler img:first');
                 $next.css('z-index', 2);//move the next image up the pile
-                $active.fadeOut(1500, function() {//fade out the top image
+                $active.fadeOut(1500, function () {//fade out the top image
                     $active.css('z-index', 1).show().removeClass('active');//reset the z-index and unhide the image
                     $next.css('z-index', 3).addClass('active');//make the next image the top one
                 });
             }
 
-            $(document).ready(function() {
+            $(document).ready(function () {
                 setInterval('cycleImages()', 4000);
             })
 
@@ -74,27 +74,27 @@
             </a>
 
             <div class="grid_8">
-            <a href="?p=proyectos">
-                <div class="titles">
-                    PROYECTOS
+                <a href="?p=proyectos">
+                    <div class="titles">
+                        PROYECTOS
 
-                </div>
-            </a>
-            <a href="?p=despacho">
-                <div class="titles" >
-                    DESPACHO
-                </div>
-            </a>
-<!--            <a href="?p=contacto">
-                <div class="titles" >
-                    CONTACTO
-                </div>
-            </a>-->
-            <a href="?p=enlaces">
-                <div class="titles" >
-                    ENLACES
-                </div>
-            </a>
+                    </div>
+                </a>
+                <a href="?p=despacho">
+                    <div class="titles" >
+                        DESPACHO
+                    </div>
+                </a>
+                <!--            <a href="?p=contacto">
+                                <div class="titles" >
+                                    CONTACTO
+                                </div>
+                            </a>-->
+                <a href="?p=enlaces">
+                    <div class="titles" >
+                        ENLACES
+                    </div>
+                </a>
             </div>
 
             <hr class="grid_12" />
@@ -129,12 +129,12 @@
         </div>
 
         <script>
-            
+
             var global = {
                 type: null
             }
 
-            $.get(mapeo(), function(data) {
+            $.get(mapeo(), function (data) {
                 $("#body").append(data);
             });
 
