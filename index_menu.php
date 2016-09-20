@@ -9,8 +9,8 @@
 
 </script>
 
-<div class="grid_12">
-    <div id="portfolio_cycler"> </div>
+<div id="portfolio_cycler" class="grid_12">
+    <!--<div> </div>-->
 </div>
 
 <hr class="grid_12" />
