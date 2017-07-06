@@ -22,7 +22,6 @@ function getURL() {
             "mail": "contacto/mail.php",
             "send": "contacto/send.php",
             "proyectos_tipo": "proyectos/proyectos_tipo.php",
-            "datos": "base_datos.php",
             "plantilla": "plantilla.php",
             "prueba_mama": "pruebas/prueba_mama.php",
             "prueba": "prueba.php",
